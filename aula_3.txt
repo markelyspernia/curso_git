@@ -1,0 +1,68 @@
+    1  ls
+    2  ls -a
+    3  ls ..
+    4  pwd
+    5  ls
+    6  cd desktop
+    7   pwd
+    8  dc ..
+    9  cd
+   10  cd ..
+   11  cd desktop/
+   12  cd desktop
+   13  cd Desktop/
+   14  cd ~
+   15  cd Desktop/.git/
+   16  cd description 
+   17  cd Desktop/
+   18  cd Desktop/ 
+   19  mkdir comandos1
+   20  ls
+   21  cd comandos1
+   22  mkdir kely
+   23  ls
+   24  rm -r kely
+   25  rm -r comandos1
+   26  rm -r comandos1
+   27  mkdir comandos
+   28  mkdir "pasta nova"
+   29  rm -r nova pasta
+   30  rm -r pastanova
+   31  clear
+   32  history
+   33  history 
+   34  clear
+   35  git config --global user.name 'markelys pernia'
+   36  gitt config --global user.email 'markelysp01@gmail.com'
+   37  git config --global user.email 'markelysp01@gmail.com'
+   38  git config user.name
+   39  cd desktop/
+   40  mkdir curso_git
+   41  cd curso_git 
+   42  git config user.name
+   43  git init
+   44  git status
+   45  echo '#aprendendo usar o git' > readme.md
+   46  git status
+   47   git add readme.md 
+   48  git status
+   49  git commit -m 'commit inicial'
+   50  git status
+   51  echo '##aula 1' >> readme.md 
+   52  git status
+   53  echo 'markelys pernia' > participantes.txt
+   54  git status
+   55  git add .
+   56  git status
+   57  git restore --staged participantes.txt 
+   58  git status
+   59  git add participantes.txt 
+   60  git status
+   61  git restore --staged .
+   62  git status 
+   63  git commit -am 'alteração no readme'
+   64  git status
+   65  git add participantes.txt 
+   66  git status
+   67  git commit -m 'adicionando participantes.txt'
+   68  history > aula_3.txt 
